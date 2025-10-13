@@ -1,0 +1,28 @@
+@media only screen and (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    display: none;
+  }
+  .logo {
+    position: relative;
+    left: 0px;
+  }
+  nav .links {
+    flex-direction: column;
+    text-align: center;
+  }
+  nav .links a {
+    border-bottom: 2px solid grey;
+    width: 98vw;
+    padding-bottom: 0.5rem;
+  }
+  nav .btns {
+    margin-top: 1rem;
+  }
+  .menu-bar {
+    display: block;
+  }
+}
+
+/* git add <fileName/folderName> */
+/* git add . */
